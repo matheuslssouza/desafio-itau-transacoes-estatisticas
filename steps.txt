@@ -1,0 +1,15 @@
+O desafio está nas suas mãos:
+
+O primeiro método a ser feito é o adicionarTransacao(TransacaoRequest request).
+
+Lembre-se das 3 regras que você precisa validar antes de guardar a transação na fila (todas devem lançar IllegalArgumentException, que o GlobalExceptionHandler converte para 422):
+
+Valor negativo (< 0)
+Data no futuro
+Data mais antiga que 60 segundos
+
+Como você vai escrever a implementação do adicionarTransacao? Pode escrever o código aqui ou no seu arquivo e me mandar para validarmos!
+
+O projeto compilou com sucesso (BUILD SUCCESS) e está 100% pronto para você implementar.
+
+Quando quiser, pode escrever sua versão do adicionarTransacao para analisarmos juntos!
